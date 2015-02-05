@@ -46,5 +46,18 @@
 	<classpathentry kind="lib" path="D:/SPRING/workspace/common-lib/hibernate/ojdbc14.jar"/>
 	<classpathentry kind="lib" path="D:/SPRING/workspace/common-lib/hibernate/slf4j-api-1.6.1.jar"/>
 	<classpathentry kind="lib" path="D:/SPRING/workspace/common-lib/hibernate/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/SPRING/workspace/common-lib/itext/itextpdf-5.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/SPRING/workspace/common-lib/itext/itextpdf-5.5.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/SPRING/workspace/common-lib/itext/itextpdf-5.5.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/SPRING/workspace/common-lib/itext/itext-pdfa-5.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/SPRING/workspace/common-lib/itext/itext-pdfa-5.5.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/SPRING/workspace/common-lib/itext/itext-pdfa-5.5.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/SPRING/workspace/common-lib/itext/itext-xtra-5.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/SPRING/workspace/common-lib/itext/itext-xtra-5.5.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/SPRING/workspace/common-lib/itext/itext-xtra-5.5.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/SPRING/workspace/common-lib/itext/xmlworker-5.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/SPRING/workspace/common-lib/itext/xmlworker-5.5.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/SPRING/workspace/common-lib/itext/xmlworker-5.5.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/SPRING/workspace/common-lib/mysql-connector-java-5.1.29.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

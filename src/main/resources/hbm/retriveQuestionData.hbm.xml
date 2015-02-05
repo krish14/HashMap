@@ -4,18 +4,19 @@
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping package="module">
+  
 	<class name="retrieveQuestionData" table="questions">
 
-		<id name="question_id" column="question_id">
-			<generator class="assigned">
+		<id name="question_id" column="question_id" type="int">
+			<generator class="assigned"></generator>
 		</id>
-		<property name="answer_type" column="answer_type" type="int"></property>
-		<property name="question_state" column="question_state" type="int"></property>
+		<property name="answer_type" column="answer_type" not-null="false" type="int"></property>
+		<property name="question_state" column="question_state" not-null="false" type="int"></property>
 		<property name="question_text" column="question_text" type="string"></property>
-		<property name="numeric_min" column="numeric_min" type="int"></property>
-		<property name="numeric_max" column="numeric_max" type="string"></property>
+		<property name="numeric_min" column="numeric_min" not-null="true" type="int"></property>
+		<property name="numeric_max" column="numeric_max" not-null="false" type="int"></property>
 		<property name="nickname" column="nickname" type="string"></property>
-		
-	</properties>
-	</class>
+		</class>
+	
+	
 </hibernate-mapping>

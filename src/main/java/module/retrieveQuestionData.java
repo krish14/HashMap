@@ -2,13 +2,14 @@ package module;
 
 public class retrieveQuestionData {
 
-	private int	question_id;
-	private int	answer_type;
-	private int	question_state;
+	private Integer	question_id;
+	private Integer	answer_type;
+	private Integer	question_state;
 	private String	question_text;
-	private int	numeric_min;
-	private int	numeric_max;
+	private Integer	numeric_min;
+	private Integer	numeric_max;
 	private String nickname;
+	
 
 	public int getQuestion_id() {
 		return this.question_id;
