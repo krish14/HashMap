@@ -29,7 +29,8 @@
         <property name="hbm2ddl.auto"></property>
  
         <mapping resource="hbm/retriveQuestionData.hbm.xml"/>
- 		
+ 		<mapping resource="QuestionGroupInstance.hbm.xml"/>
+ 		<mapping resource="QuestionGroupResponse.hbm.xml"/>
  		 
     </session-factory>
 </hibernate-configuration>

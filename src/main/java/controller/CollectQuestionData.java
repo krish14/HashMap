@@ -36,8 +36,6 @@ public class CollectQuestionData {
 
 				}
 
-
-
 		session.close();
 		factory.close();
 

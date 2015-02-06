@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="module">
+  
+	<class name="QuestionGroupInstance" table="question_group_instance">
+
+		<id name="id" column="id" type="int">
+			<generator class="assigned"></generator>
+		</id>
+
+		<property name="question_group_id" column="question_group_id" not-null="false" type="int"></property>
+		<property name="entity_id" column="entity_id" not-null="false" type="int"></property>
+		<property name="question_text" column="question_text" type="string"></property>
+		<property name="completed_status" column="completed_status" type=""></property>
+		<property name="created_by" column="created_by" not-null="true" type="int"></property>
+		<property name="version_is" column="version_id" not-null="false" type="int"></property>
+		<property name="event_source_id" column="event_source_id" type="string"></property>
+		
+		<set name="id" cascade="all" inverse="true">
+			<key column="id" />
+			<one-to-many class="QuestionGroupResponse" />
+		</set>
+				
+	</class>
+	
+</hibernate-mapping>

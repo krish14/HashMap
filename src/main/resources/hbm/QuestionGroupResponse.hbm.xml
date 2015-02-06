@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="module">
+  
+	<class name="QuestionGroupResponse" table="question_group_response">
+
+		<id name="id" column="id" type="int">
+			<generator class="assigned"></generator>
+		</id>
+		<many-to-one name="question_group_instance_id" column="question_group_instance_id" cascade="all"/>
+		<property name="sections_questions_id" column="sections_questions_id" not-null="false" type="int"></property>
+		<property name="response" column="response" type="string"></property>
+		<property name="tag" column="tag" type="string"></property>
+		</class>
+		
+		
+		
+</hibernate-mapping>
